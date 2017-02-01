@@ -1,0 +1,91 @@
+<!DOCTYPE html>                                                                 
+  <head>   
+  <meta charset="utf-8">
+  <title>SPYCAR</title>
+  <meta name="description" content="Lab conditions - RPi">
+  <meta name="author" content="Justine Ayroor">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/skeleton.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png">
+  <style type="text/css">                                                     
+        body {                                                                  
+            padding: 0;                                                         
+            margin: 0;                                                          
+        }                                                                       
+        .large_button {                                                         
+            position: absolute;                                                 
+            width: 100%;                                                        
+            height: 40%;                                                        
+            text-align: center;                                                 
+            text-decoration: none;                                              
+            font-size: 100%;
+        }                                                                       
+        #bot_control {                                                                   
+            background-color: #fbf09a;                                          
+            color: rgb(223, 54, 10);                                          
+            text-shadow: 1px 1px 10px #5C4E17;                                  
+        }                                                                       
+        #distance_sensor {                                                                  
+            background-color: #1e170b;                                          
+            top: 35%;                                                           
+            color: rgb(83, 71, 48);                                             
+            text-shadow: 1px 1px 10px #000000;                                  
+        }
+	#DHT11_sensor {
+            background-color: #ee640c;                                          
+            top: 70%;                                                           
+            color: rgb(200, 118, 18);                                             
+            text-shadow: 1px 1px 10px #000000;
+	}
+	#Webcam {
+            background-color: #af380c;                                          
+            top: 100%;                                                           
+            color: rgb(200, 118, 18);                                             
+            text-shadow: 1px 1px 10px #000000;
+	}
+    </style> 
+    <body>
+     <center><img src="/static/images/download (1).png"></center>                                                  
+     <center><h2>********RASPBERRY PI IOT BASED SURVEILLANCE BOT*********</h2></center>
+      <center><h3>--------************BOT FEATURES*************------------</h3></center>
+      <MARQUEE><img src="/static/images/car.jpe"></MARQUEE>
+       <div class="container">
+        <div class="row">
+         <div class="col-md-12"">
+	  <table border=0 align="left" width="100%">
+           <tr>
+	       <td>
+	     	<h1><a href="/bot_control/stop" id="bot_control" class="large_button">BOT_CONTROL</a></h1>
+	       </td>
+	   </tr>
+	   <tr>
+	       <td>
+	        <h1><a href="/lab_dist" id="distance_sensor" class="large_button">DISTANCE_SENSOR</a></h1>
+	       </td>
+	   </tr>
+	   <tr>
+	       <td>
+	        <h1><a href="/lab_temp" id="DHT11_sensor" class="large_button">DHT11_SENSOR</a></h1> 
+               </td>
+	   </tr>
+	   <tr>
+	       <td>
+	        <h1><a href="/camera" id="Webcam" class="large_button">Webcam</a></h1>
+	       </td>
+	   </tr>
+	  </table>
+	 </div>
+	</div>
+       </div>
+      </body>
+     </html>

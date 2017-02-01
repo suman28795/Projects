@@ -1,0 +1,32 @@
+<html>
+  <meta charset="utf-8">
+  <title>Lab Conditions by RPi</title>
+  <meta http-equiv="refresh" content="2">
+  <meta name="description" content="Lab conditions - RPi">
+  <meta name="author" content="Justine Ayroor">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/skeleton.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/static/images/favicon.png">
+</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="two-third column" style="margin-top: 5%">
+            <h2>Real time lab conditions</h2>
+            <h1>LEVEL OF WATER: {{ level }} </h1>
+	    <h1>MOTOR STATUS: {{ message }} </h1>
+        </div>   
+      </div>
+    </div>           
+  </body>  
+</html>
